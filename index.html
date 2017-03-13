@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Snack Selector</title>
+	<link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/project.js">></script>
+</head>
+<body onload="checkCookieStorage();createSelection('init')"> <!-- onload="checkStorage()" -->
+	<div id='containerSel'>
+		<div id='header'>
+			<h1>Snack Selector!</h1>
+			<h3>Choose your preference</h3>
+		</div>
+		<div id="selects">
+		</div>
+	</div>
+	<div id="form">
+		<h3 id="finResults"></h3>
+		<form onsubmit="return validateName();" action="#" method="get">
+			First name:<br>
+			<input type="text" name="fname" id="fname"><br>
+			Last name:<br>
+			<input type="text" name="lname" id="lname"><br>
+			<input type="radio" name="gender" value="male" checked> Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			<input type="radio" name="gender" value="other"> Other<br>
+			<textarea rows="4" col="50">Tell us about your experience!</textarea>
+			<br>
+			<input type="submit" id="enter" value="Enter"><!--I made this a button so it wouldn't refresh the page -->
+		</form>
+	</div>
+	<div id="containerImgs">
+		<img src="images/apple.png" class="food">
+		<img src="images/chips.png" class="food">
+		<img src="images/fries.png" class="food">
+		<img src="images/honey_nuts.png" class="food">
+		<img src="images/jello.png" class="food">
+		<img src="images/trailmix.gif" class="food">
+		<img src="images/yogurt.gif" class="food">
+		<img src="images/chef.png" class="chef">
+	</div>
+
+	<body>
+		</html>

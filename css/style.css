@@ -1,0 +1,108 @@
+body{
+  background-color: #FF9C83;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+h1{
+  color:#DB4745;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+h3{
+  color:#DB4745;
+  text-align: center;
+  font-size: 1em;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  border: none;
+  font-size: 1em;
+  padding:10px;
+  background-color: #ffffcc;
+  margin-bottom: 10px;
+  border-radius: 0.8em;
+}
+#containerSel{
+  width: 50%;
+  background-color: #FFDAD7;
+  padding-bottom:0.5em;
+  border-radius: 0.8em;
+  margin-left:3em;
+  margin-top: 2em;
+  float:left;
+}
+#containerImgs{
+  float: right;
+  margin-top: 2em;
+  width:40%;
+  margin: 0 auto;
+  border: 10px black;
+}
+
+#chef{
+  width:30%;
+  display:block;
+  margin:auto;
+}
+.food{
+  width:20%;
+}
+div .selection{
+  background-color: #FF5329;
+  padding:10px;
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 0.8em;
+  position: relative;
+    -webkit-animation-name: moveIn; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    animation-name: moveIn;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes moveIn {
+    0%   {left:-400px;}
+    100% {left:0px;}
+}
+select {
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  border: none;
+  font-size: 1em;
+  height: 30px;
+  padding: 5px;
+  width: 100%;
+}
+form{
+  width:50%;
+  margin:0 auto;
+}
+#finalResult{
+  color:gold;
+  text-align: center;
+}
+#form{
+  display:none;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #ff9999;
+  margin:0 auto;
+  border-radius: 10px;
+  width:30%;
+  padding:5px 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+input{
+  margin-bottom: 1em;
+}
